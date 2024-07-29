@@ -1,0 +1,15 @@
+package firstpractice;
+
+public class Chapter2_PrintNumericalExpression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;
+		double b=2.0;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+	}
+
+}
