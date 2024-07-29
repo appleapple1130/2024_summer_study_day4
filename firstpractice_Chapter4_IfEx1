@@ -1,0 +1,32 @@
+package firstpractice;
+
+public class Chapter4_IfEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1=10;
+		int num2=2;
+		char operater ='+';
+		if(operater=='+')
+			System.out.println(num1+num2);
+		else if(operater=='-')
+			System.out.println(num1-num2);
+		else if(operater=='*')
+			System.out.println(num1*num2);
+		else if(operater=='/')
+			System.out.println(num1/num2);
+		System.out.println( );
+		switch(operater) {
+			case '+': System.out.println(num1+num2);
+					break;
+			case '-': System.out.println(num1-num2);
+					break;
+			case '*': System.out.println(num1*num2);
+					break;
+			case '/': System.out.println(num1/num2);
+					break;
+		}
+
+	}
+
+}
