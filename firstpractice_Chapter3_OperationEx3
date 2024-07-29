@@ -1,0 +1,14 @@
+package firstpractice;
+
+public class Chapter3_OperationEx3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=10;
+		System.out.println(num);
+		System.out.println(num++);
+		System.out.println(num);
+		System.out.println(--num);
+	}
+
+}
