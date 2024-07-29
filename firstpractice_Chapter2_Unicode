@@ -1,0 +1,11 @@
+package firstpractice;
+
+public class Chapter2_Unicode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char g='\uae00';
+		System.out.println(g);
+	}
+
+}
